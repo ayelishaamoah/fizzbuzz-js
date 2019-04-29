@@ -12,4 +12,8 @@ describe("fizzBuzz", function() {
   it('prints fizzbuzz if  is entered', function() {
     expect(fizzBuzz(15)).toEqual("FizzBuzz");
   });
+
+  it('prints fizzbuzz if  is entered', function() {
+    expect(fizzBuzz(5)).toEqual("Fizz");
+  });
 });
