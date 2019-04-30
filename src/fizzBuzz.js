@@ -9,3 +9,10 @@ function fizzBuzz(number) {
     return number
   }
 }
+
+var maxNumber = 100
+
+for (i = 1; i <= maxNumber; i++) {
+  console.log("Number " + i);
+  console.log(fizzBuzz(i));
+}
