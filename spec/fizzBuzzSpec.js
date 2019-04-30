@@ -14,6 +14,6 @@ describe("fizzBuzz", function() {
   });
 
   it('prints fizzbuzz if  is entered', function() {
-    expect(fizzBuzz(5)).toEqual("Fizz");
+    expect(fizzBuzz(6)).toEqual("Fizz");
   });
 });
